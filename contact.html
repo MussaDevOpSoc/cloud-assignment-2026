@@ -1,70 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Contact</title>
-
+<title>Contact - CyberShield</title>
 <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
 
-<header>
+<nav class="navbar slide-down">
 
-<div class="logo">
+  <img src="img/logo.jpg" alt="CyberShield Logo" class="logo-img">
 
-<img src="img/logo.jpg">
-
-<h2>CyberShield Security</h2>
-
-</div>
-
-<nav>
-
-<ul>
-
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 
 </nav>
 
-</header>
+<main>
 
-<section class="contact">
+<section class="contact fade-in">
 
-<h1>Contact Us</h1>
+  <h2>Contact Us</h2>
 
-<form>
+  <form class="contact-form">
 
-<input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
 
-<input type="email" placeholder="Email">
+    <button type="submit" class="btn slide-left">Send Message</button>
 
-<textarea placeholder="Your Message"></textarea>
-
-<button>Send Message</button>
-
-</form>
+  </form>
 
 </section>
-
+</main>
 <footer>
-
-<p>© 2026 CyberShield Security</p>
-
+  <p>© 2026 CyberShield Security | All Rights Reserved</p>
 </footer>
 
 </body>
-
 </html>
